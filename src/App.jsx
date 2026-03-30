@@ -9,6 +9,8 @@ import List from './List.jsx'
 import ProfilePicture from './ProfilePicture.jsx'
 import MyComponent from './MyComponent.jsx'
 import Counter from './Counter.jsx'
+import OnChanged from './OnChange.jsx'
+import ColorPicker from './ColorPicker/ColorPicker.jsx'
 
 function App() {
     // const fruits = [{id: 1,name: "apple", calories: 95},
@@ -33,7 +35,9 @@ function App() {
       {/* <Button/>
       <ProfilePicture/> */}
       {/* <MyComponent/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      {/* <OnChanged/> */}
+      <ColorPicker/>
       </>  
     );
 }
