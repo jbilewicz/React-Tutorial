@@ -11,6 +11,7 @@ import MyComponent from './MyComponent.jsx'
 import Counter from './Counter.jsx'
 import OnChanged from './OnChange.jsx'
 import ColorPicker from './ColorPicker/ColorPicker.jsx'
+import Arrays from './Arrays.jsx'
 
 function App() {
     // const fruits = [{id: 1,name: "apple", calories: 95},
@@ -37,7 +38,8 @@ function App() {
       {/* <MyComponent/> */}
       {/* <Counter/> */}
       {/* <OnChanged/> */}
-      <ColorPicker/>
+      {/* <ColorPicker/> */}
+      <Arrays/>
       </>  
     );
 }
