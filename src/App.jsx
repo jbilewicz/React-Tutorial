@@ -13,6 +13,8 @@ import OnChanged from './OnChange.jsx'
 import ColorPicker from './ColorPicker/ColorPicker.jsx'
 import Arrays from './Arrays.jsx'
 import ToDoList from './To-Do-List/ToDoList.jsx'
+import DigitalClock from './DigitalClock/DigitalClock.jsx'
+import Stopwatch from './StopWatch/StopWatch.jsx'
 
 function App() {
     // const fruits = [{id: 1,name: "apple", calories: 95},
@@ -41,7 +43,9 @@ function App() {
       {/* <OnChanged/> */}
       {/* <ColorPicker/> */}
       {/* <Arrays/> */}
-      <ToDoList/>
+      {/* <ToDoList/> */}
+      {/* <DigitalClock/> */}
+      <Stopwatch/>
       </>  
     );
 }

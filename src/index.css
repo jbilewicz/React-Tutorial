@@ -1,4 +1,4 @@
-.card{
+/* .card{
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 5px 5px 5px black;
@@ -203,4 +203,87 @@ li{
 
 .text{
   flex:1;
+} */
+/* body{
+  background-image: url(C:\Users\jbile\Desktop\react-tutorial\src\assets\tlo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  margin:0;
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+.clock-container{
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  padding: 10px 0;
+}
+.clock{
+  color:white;
+  font-size:6rem;
+  font-weight:bold;
+  font-family:monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px black;
+} */
+
+body{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
+}
+.stopwatch{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  border:5px solid;
+  border-radius:50px;
+  background-color:white;
+  padding:30px;
+}
+
+.display{
+  font-size: 5rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight:bold;
+  color: gray;
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 25px;
+}
+
+.controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border:none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
+.start-button{
+  background-color: rgb(2, 161, 2);
+}
+.start-button:hover{
+  background-color: green;
+}
+.stop-button{
+  background-color: rgb(222, 4, 4);
+}
+.stop-button:hover{
+  background-color: rgb(171, 1, 1);
+}
+.reset-button{
+  background-color: rgb(3, 30, 205);
+}
+.reset-button:hover{
+  background-color: rgb(6, 2, 128);
 }
